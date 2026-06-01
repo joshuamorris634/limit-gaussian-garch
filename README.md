@@ -1,2 +1,43 @@
-# limit-gaussian-garch
-GARCH(1,1) estimation with limit-Gaussian innovations: simulation study comparing MLE efficiency across innovation distributions
+# GARCH(1,1) with Limit-Gaussian Innovations — Simulation Study
+
+Code for my MSc thesis investigating the limit-Gaussian distribution as an innovation specification for the GARCH(1,1) model, comparing its finite-sample estimation performance against the Gaussian QMLE and Student-t MLE via a Monte Carlo simulation study.
+
+## Repository Contents
+
+```
+├── simulation.ipynb    # All-in-one simulation notebook
+├── README.md           # Project overview
+└── requirements.txt    # Required Python packages
+```
+
+## What the Notebook Does
+
+- Simulates GARCH(1,1) processes under three innovation DGPs: limit-Gaussian, Gaussian, and Student-t
+- Estimates model parameters using limit-Gaussian MLE, Gaussian QMLE, and Student-t MLE across N=100 Monte Carlo replications of length T=1000
+- Evaluates estimation accuracy via parameter RMSE, bias, Monte Carlo standard deviation (MCSD), and aggregated volatility RMSE
+- Generates representative volatility path plots and diagnostic tables
+
+## Requirements
+
+```
+numpy
+pandas
+scipy
+arch
+joblib
+matplotlib
+```
+
+Install via:
+
+```
+pip install numpy pandas scipy arch joblib matplotlib
+```
+
+## Runtime
+
+The full simulation (T=1000, N=100) takes approximately 11 hours on a standard laptop. To run a quick test, set T=200, N=5 in the simulation parameters at the top of the notebook.
+
+## Note on Output
+
+Due to the computational cost of the full simulation, output is not stored in the notebook. All key results are reported in the thesis.
