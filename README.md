@@ -36,7 +36,7 @@ pip install numpy pandas scipy arch joblib matplotlib
 
 ## Runtime
 
-The full simulation (T=1000, N=100) takes approximately 11 hours on a standard laptop. To run a quick test, set T=200, N=5 in the simulation parameters at the top of the notebook.
+The full simulation (T=1000, N=100) takes approximately 11 hours on a standard laptop. To run a quick test, set T=200, N=5 in the simulation parameters.
 
 ## Note on Output
 
