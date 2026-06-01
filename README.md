@@ -12,9 +12,14 @@ Code for my MSc thesis investigating the limit-Gaussian distribution as an innov
 
 ## What the Notebook Does
 
-- Simulates GARCH(1,1) processes under three innovation DGPs: limit-Gaussian, Gaussian, and Student-t
-- Estimates model parameters using limit-Gaussian MLE, Gaussian QMLE, and Student-t MLE across N=100 Monte Carlo replications of length T=1000
-- Evaluates estimation accuracy via parameter RMSE, bias, Monte Carlo standard deviation (MCSD), and aggregated volatility RMSE
+- Simulates GARCH(1,1) processes under three innovation DGPs: 
+  limit-Gaussian, Gaussian, and Student-t
+- Estimates model parameters using limit-Gaussian MLE, Gaussian QMLE, 
+  and Student-t MLE across N=100 Monte Carlo replications of length T=1000
+- Evaluates estimation accuracy via parameter RMSE, bias, Monte Carlo 
+  standard deviation (MCSD), and aggregated volatility RMSE
+- Computes single-replication diagnostics including parameter estimates, 
+  persistence estimates, and volatility RMSE for a representative replication
 - Generates representative volatility path plots and diagnostic tables
 
 ## Requirements
