@@ -16,11 +16,14 @@ Code for my MSc thesis investigating the limit-Gaussian distribution as an innov
   limit-Gaussian, Gaussian, and Student-t
 - Estimates model parameters using limit-Gaussian MLE, Gaussian QMLE, 
   and Student-t MLE across N=100 Monte Carlo replications of length T=1000
-- Evaluates estimation accuracy via parameter RMSE, bias, Monte Carlo 
-  standard deviation (MCSD), and aggregated volatility RMSE
+- Reports summary tables of parameter RMSE, aggregated volatility RMSE, 
+  and shape parameter recovery
+- Generates a representative volatility path figure comparing estimated 
+  and true conditional volatility paths across DGPs
 - Computes single-replication diagnostics including parameter estimates, 
-  persistence estimates, and volatility RMSE for a representative replication
-- Generates representative volatility path plots and diagnostic tables
+  persistence estimates, and volatility RMSE for the representative replication
+- Reports Monte Carlo bias, MCSD, and RMSE tables for detailed 
+  assessment of estimator precision and accuracy
 
 ## Requirements
 
