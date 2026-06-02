@@ -14,8 +14,8 @@ Code for my MSci thesis investigating the limit-Gaussian distribution as an inno
 
 - Simulates GARCH(1,1) processes under three innovation DGPs: 
   limit-Gaussian, Gaussian, and Student-t
-- Estimates model parameters using limit-Gaussian MLE, Gaussian QMLE, 
-  and Student-t MLE across N=100 Monte Carlo replications of length T=1000
+- Estimates model parameters using limit-Gaussian (Q)MLE, Gaussian (Q)MLE, 
+  and Student-t (Q)MLE across N=100 Monte Carlo replications of length T=1000
 - Reports summary tables of parameter RMSE, aggregated volatility RMSE, 
   and shape parameter recovery
 - Generates a representative volatility path figure comparing estimated 
