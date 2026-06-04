@@ -7,15 +7,15 @@ inflation indicators.
 ## Repository Contents
 
 ```
-├── Simulation.ipynb              # All-in-one simulation notebook
-├── Empirical_Application.ipynb   # Empirical application to macroeconomic data
+├── simulation.ipynb              # All-in-one simulation notebook
+├── empirical_application.ipynb   # Empirical application to macroeconomic data
 ├── README.md                     # Project overview
 └── requirements.txt              # Required Python packages
 ```
 
 ## What the Notebook Does
 
-### Simulation.ipynb
+### simulation.ipynb
 - Simulates GARCH(1,1) processes under three innovation DGPs: 
   limit-Gaussian, Gaussian, and Student-t
 - Estimates model parameters using limit-Gaussian (Q)MLE, Gaussian (Q)MLE, 
@@ -29,7 +29,7 @@ inflation indicators.
 - Reports Monte Carlo bias, MCSD, and RMSE tables for detailed 
   assessment of estimator precision and accuracy
 
-### Empirical_Application.ipynb
+### empirical_application.ipynb
 - Downloads five post-2010 monthly macroeconomic inflation series 
   (US PPI, China CPI, US CPI, Euro HICP, UK CPI) from the FRED 
   database via the `fredapi` package
@@ -74,7 +74,7 @@ running.
 
 ## Runtime
 
-- `Simulation.ipynb`: approximately 11 hours at T=1000, N=100 on 
+- `aimulation.ipynb`: approximately 11 hours at T=1000, N=100 on 
   a standard laptop. To run a quick test, set T=200, N=5 in the 
   simulation parameters.
-- `Empirical_Application.ipynb`: approximately 5 minutes.
+- `empirical_application.ipynb`: approximately 5 minutes.
