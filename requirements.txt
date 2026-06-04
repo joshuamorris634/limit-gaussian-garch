@@ -4,3 +4,4 @@ scipy
 arch
 joblib
 matplotlib
+fredapi
