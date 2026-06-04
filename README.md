@@ -68,7 +68,7 @@ The empirical application downloads data automatically from the
 Federal Reserve Economic Data (FRED) database via the `fredapi` 
 package. A free API key is required, available at 
 https://fred.stlouisfed.org/docs/api/api_key.html (registration 
-takes approximately 2 minutes). Replace `"your_key_here"` in 
+takes approximately 2 minutes). Replace `"your_api_key_here"` in 
 Cell 3 of `empirical_application.ipynb` with your API key before 
 running.
 
