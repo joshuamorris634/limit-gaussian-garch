@@ -9,8 +9,8 @@ inflation indicators.
 ```
 ├── simulation.ipynb              # All-in-one simulation notebook
 ├── empirical_application.ipynb   # Empirical application to macroeconomic data
-├── README.md                     # Project overview
-└── requirements.txt              # Required Python packages
+├── requirements.txt              # Required Python packages
+└── README.md                     # Project overview
 ```
 
 ## What the Notebook Does
