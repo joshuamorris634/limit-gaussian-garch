@@ -38,8 +38,7 @@ inflation indicators.
   each series
 - Fits GARCH(1,1) models under limit-Gaussian, Gaussian, and 
   Student-t innovation specifications to each series
-- Reports estimated parameters ($\omega$, $\alpha$, $\beta$, $\nu$) 
-  and log-likelihood for each specification
+- Reports estimated parameters and log-likelihood for each specification
 - Compares in-sample fit via information criteria (AIC, BIC, AICc, 
   HQIC)
 - Generates distribution histograms overlaid with fitted Gaussian 
