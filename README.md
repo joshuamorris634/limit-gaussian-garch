@@ -1,4 +1,4 @@
-# GARCH(1,1) with Limit-Gaussian Innovations - Simulation Study
+# GARCH(1,1) with Limit-Gaussian Innovations
 
 Code for my MSci thesis investigating the limit-Gaussian distribution as an innovation specification for the GARCH(1,1) model, comparing its finite-sample estimation performance against the Gaussian (Q)MLE and Student-t (Q)MLE via a Monte Carlo simulation study, and 
 applying the proposed specification to monthly macroeconomic 
