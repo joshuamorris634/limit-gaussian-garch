@@ -13,7 +13,7 @@ inflation indicators.
 └── README.md                     # Project overview
 ```
 
-## What the Notebook Does
+## What the Notebooks Do
 
 ### simulation.ipynb
 - Simulates GARCH(1,1) processes under three innovation DGPs: 
@@ -74,7 +74,7 @@ running.
 
 ## Runtime
 
-- `aimulation.ipynb`: approximately 11 hours at T=1000, N=100 on 
+- `simulation.ipynb`: approximately 11 hours at T=1000, N=100 on 
   a standard laptop. To run a quick test, set T=200, N=5 in the 
   simulation parameters.
 - `empirical_application.ipynb`: approximately 5 minutes.
